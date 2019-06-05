@@ -1,0 +1,106 @@
+/*!
+ * Start Bootstrap - Freelancer v5.1.1 (https://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
+ */
+
+.page.dashboard-page p {
+  font-size: 16px;
+}
+
+.page.dashboard-page .search-box {
+  position: relative;
+  margin-top: 10px;
+}
+
+.page.dashboard-page .search-box input[type="text"] {
+  width: 180px;
+  padding: 8px 40px 8px 12px;
+  font-size: 12px;
+}
+
+.page.dashboard-page .search-box i {
+  position: absolute;
+  top: 13px;
+  right: 18px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.page.dashboard-page .currency-selector {
+  margin: 10px 0 0 30px;
+}
+
+.page.dashboard-page .currency-selector span {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.page.dashboard-page .currency-selector i {
+  margin-left: 8px;
+}
+
+.page.dashboard-page ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page.dashboard-page ul li {
+  margin-top: 10px;
+}
+
+.page.dashboard-page #overviewSection #myTab {
+  background-color: white;
+}
+
+.page.dashboard-page #overviewSection #myTab li.nav-item .nav-link {
+  padding: 20px 20px;
+  border-radius: 0 !important;
+}
+
+.page.dashboard-page #overviewSection #myTab li.nav-item .nav-link.active {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #f8f9fa;
+}
+
+.page.dashboard-page #qaSection #carouselExampleCaptions2 a.carousel-control-next,
+.page.dashboard-page #qaSection #carouselExampleCaptions2 a.carousel-control-prev {
+  display: none;
+}
+
+.page.dashboard-page #qaSection #carouselExampleCaptions2 ol.carousel-indicators li {
+  background-color: #2c3e50;
+}
+
+.page.dashboard-page #accordionExample .card .card-header {
+  border: 0 none;
+  background-color: white;
+}
+
+.page.dashboard-page #accordionExample .media {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.page.dashboard-page #accordionExample .media > div:last-child {
+  width: 200px;
+}
+
+.page.dashboard-page #accordionExample .collapse .media > div:last-child {
+  text-align: center;
+}
+
+.page.dashboard-page #mapSection .media {
+  padding: 15px 0;
+  margin: 0 15px;
+}
+
+.page.dashboard-page #mapSection .media + .media {
+  border-top: .125rem solid #dee2e6;
+}
+
+.page.dashboard-page .camp-selector {
+  cursor: pointer;
+}

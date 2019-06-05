@@ -1,0 +1,108 @@
+@import  "../base/variables";
+
+.page.dashboard-page {
+  p {
+    font-size: 16px;
+  }
+
+  .search-box {
+    position: relative;
+    margin-top: 10px;
+    input[type="text"] {
+      width: 180px;
+      padding: 8px 40px 8px 12px;
+      font-size: 12px;
+    }
+    i {
+      position: absolute;
+      top: 13px;
+      right: 18px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+
+  .currency-selector {
+    margin: 10px 0 0 30px;
+    span {
+      font-size: 16px;
+      font-weight: 300;
+    }
+    i {
+      margin-left: 8px;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      margin-top: 10px;
+    }
+  }
+
+  #overviewSection {
+    #myTab {
+      background-color: white;
+      li.nav-item {
+        .nav-link{
+          padding: 20px 20px;
+          border-radius: 0 !important;
+          &.active {
+            background-color: #f8f9fa;
+            border-bottom: 2px solid #f8f9fa;
+          }
+        }
+      }
+    }
+  }
+
+  #qaSection {
+    #carouselExampleCaptions2 {
+      a.carousel-control-next,
+      a.carousel-control-prev {
+        display: none;
+      }
+      
+
+      ol.carousel-indicators li {
+        background-color: $dark-blue;
+      }
+    }
+  }
+
+  #accordionExample {
+    .card {
+      .card-header {
+        border: 0 none;
+        background-color: white;
+      }
+    }
+    .media {
+      flex: 0 0 auto;
+      & > div:last-child {
+        width: 200px;
+      }
+    }
+    .collapse {
+      .media > div:last-child {
+        text-align: center;
+      }
+    }
+  }
+
+  #mapSection {
+    .media {
+      padding: 15px 0;
+      margin: 0 15px;
+    }
+    .media + .media {
+      border-top: .125rem solid #dee2e6;
+    }
+  }
+
+  .camp-selector {
+    cursor: pointer;
+  }
+}
